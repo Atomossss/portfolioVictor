@@ -1,0 +1,29 @@
+.book {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+    text-align: justify;
+  }
+  
+  .skills .about__left {
+    max-width: 40rem;
+    flex: 1;
+  }
+  
+  .skills .about__left p {
+    margin: 1rem 0 2rem;
+  }
+  
+  /* Aplicar responsividade*/
+  @media only screen and (max-width: 768px) {
+    .book {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .book .about__left {
+      max-width: 66rem;
+      text-align: center;
+    }
+  }
